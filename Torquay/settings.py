@@ -76,7 +76,6 @@ TEMPLATES = [
 
 STATIC_URL = 'static/'
 STATIC_ROOT = 'static_root'
-STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 
 WSGI_APPLICATION = 'Torquay.wsgi.application'
